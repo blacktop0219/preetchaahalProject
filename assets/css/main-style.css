@@ -121,6 +121,9 @@ button.search-btn{
 .bg-img{
 	height: 636px;
 }
+.bg-gray-light{
+	background-color: rgba(237, 237, 237, 0.999);
+}
 @media(min-width: 800px){
 	div.jumbotron{
 		margin-top: 8%;
@@ -150,4 +153,13 @@ div.jumbotron p{
 .icon-grid h2,
 .icon-grid h4{
 	margin-top: 10px;
+}
+.action-btn{
+	display: inline-block;
+	max-width: 300px;
+	width: auto !important;
+	border: solid 1px white;
+}
+.fix-later{
+	padding: 5px;
 }
