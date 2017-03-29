@@ -161,5 +161,9 @@ div.jumbotron p{
 	border: solid 1px white;
 }
 .fix-later{
-	padding: 5px;
+	padding: 10px;
+}
+.icons-wrap .icon-grid img{
+	height: 80px;
+	width: 80px;
 }
