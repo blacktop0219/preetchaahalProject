@@ -36,6 +36,9 @@
 .color-orange{
 	color: rgba(230, 130, 30, 0.999);
 }
+.color-primary-blue{
+	color: rgba(0, 255, 255, 1) !important;
+}
 .font-small{
 	font-size: 0.95rem;
 }
@@ -55,6 +58,7 @@
 .max-wd-1600{
 	max-width: 1600px;
 	width: 100%;
+	margin: 0 auto;
 }
 .display-block{
 	display: block !important;
@@ -78,6 +82,9 @@
 }
 .primary-blue{
 	background-color: rgba(0, 255, 255, 1);
+}
+.bg-dark{
+	background-color: rgba(0, 0, 0, 0.999);
 }
 .bg-light{
 	background-color: rgba(214, 214, 214, 0.78);
@@ -160,10 +167,31 @@ div.jumbotron p{
 	width: auto !important;
 	border: solid 1px white;
 }
-.fix-later{
-	padding: 10px;
+.hr-short{
+    padding-bottom: 5px;
+    background-color: rgba(230, 130, 30, 1);
+    width: 15% !important;
+    margin: 0 auto;
+    margin-bottom: -20px !important;
+    display: inline-block;
+    -webkit-flex: none !important;
+    flex: none !important;
+}
+.padding-fix{
+	padding: 10px 0;
 }
 .icons-wrap .icon-grid img{
 	height: 80px;
 	width: 80px;
+}
+form.subscribe-form input[type=text]{
+	min-width: 70%;
+	padding-right: 0;
+	margin-right: -5px;
+}
+.footer-links p a{
+	padding: 0 5px;
+}
+.footer-social-icons p a{
+	padding: 0 5px;
 }
