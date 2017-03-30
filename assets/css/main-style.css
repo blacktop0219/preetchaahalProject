@@ -11,6 +11,9 @@
     src: 
     	url('../fonts/GT Pressura Mono/GT-Pressura-Mono-Light.otf');
 }
+.font-myriadPro{
+	font-family: 'Myriad Pro';
+}
 .font-gtWalsheimProRegular{
 	font-family: 'gtWalsheimProRegular';
 }
@@ -29,6 +32,11 @@
 */
 .color-dark{
 	color: rgba(0, 0, 0, 0.999) !important;
+}
+.color-gray{
+	.border-gray{
+	color: rgba(102, 102, 102, 1);
+}
 }
 .color-white{
 	color: white !important;
@@ -108,7 +116,7 @@
 	background-color: rgba(0, 0, 0, 0.999);
 }
 .bg-light{
-	background-color: rgba(214, 214, 214, 0.78);
+	background-color: rgba(214, 214, 214, 1);
 }
 .bg-img{
 	height: 636px;
@@ -152,6 +160,9 @@
 }
 .bg-transparent{
 	background-color: transparent !important;
+}
+.top-margin-fix{
+    margin-top: -55px;
 }
 /*
 	-------- //Utilities ----
@@ -279,4 +290,26 @@ form.subscribe-form input[type=text]{
 }
 .list-content .list-meta span{
 	padding: 5px;
+}
+.btn-group button:hover{
+	background-color: white;
+	border: solid 2px white;
+}
+
+/*
+	-------- Added later ----
+*/
+.uk-list-divider-white>li:nth-child(n+2) {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 3px solid #fff;
+}
+.hr-short-new {
+    padding-bottom: 2px;
+    background-color: rgba(230, 130, 30, 1);
+    width: 8% !important;
+    margin: 20px auto;
+    display: inline-block;
+    -webkit-flex: none !important;
+    flex: none !important;
 }
