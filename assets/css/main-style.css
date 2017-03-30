@@ -36,8 +36,14 @@
 .color-orange{
 	color: rgba(230, 130, 30, 0.999);
 }
-.color-primary-blue{
+.color-blue{
 	color: rgba(0, 255, 255, 1) !important;
+}
+.color-dark-blue{
+	color: rgba(0, 0, 255, 0.999) !important;
+}
+.font-smallest{
+	font-size: 0.65rem !important;
 }
 .font-smaller{
 	font-size: 0.75rem !important;
@@ -107,8 +113,32 @@
 .bg-img{
 	height: 636px;
 }
+.bg-gray{
+	background-color: rgba(102, 102, 102, 0.999);
+}
 .bg-gray-light{
 	background-color: rgba(245, 245, 245, 0.999);
+}
+.border-blue{
+	border: solid 2px rgba(0, 255, 255, 0.999);
+}
+.border-dark-blue{
+	border: solid 2px rgba(0, 0, 255, 0.999);
+}
+.border-white{
+	border: solid 2px rgba(255, 255, 255, 1);
+}
+.border-dark{
+	border: solid 2px rgba(0, 0, 0, 0.999);
+}
+.border-light{
+	border: solid 2px rgba(214, 214, 214, 0.78);
+}
+.border-gray{
+	border: solid 2px rgba(102, 102, 102, 0.999);
+}
+.border-gray-light{
+	border: solid 2px rgba(245, 245, 245, 0.999);
 }
 .badges-wrap>span{
 	padding: 5px 10px;
@@ -119,6 +149,9 @@
 }
 .no-margin{
 	margin: 0 !important;
+}
+.bg-transparent{
+	background-color: transparent !important;
 }
 /*
 	-------- //Utilities ----
